@@ -145,7 +145,7 @@ def downloadPDF(soup, goiburuak):
             print("Downloading "+izenapdf+" ...")
             pdfa = erantzuna.content
             print(uria)
-            file = open("./pdf/" + izenapdf, "wb")
+            file = open("./WS_pdf/" + izenapdf, "wb")
             file.write(pdfa)
             file.close()
             print(izenapdf + " downloaded !")
